@@ -8,7 +8,7 @@ class HelloWorld extends React.Component {
     render() {
         function clicker() {
             console.log('button clicked')
-            this.state.who = "friend"
+           // this.setState({ who: "friend" })
         }
   return (
     <div>
